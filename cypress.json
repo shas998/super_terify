@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://www.t-mobile.cz",
+  "reporter": "junit",
+ "reporterOptions": {
+   "mochaFile": "results/my-test-output.xml",
+   "toConsole": false
+ },
+  "defaultCommandTimeout": 50000,
+  "execTimeout": 50000,
+  "requestTimeout": 90000,
+  "pageLoadTimeout": 90000,
+  "responseTimeout": 90000
+}

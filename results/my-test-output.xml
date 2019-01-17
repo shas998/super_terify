@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="67.957" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2019-01-17T07:43:35" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Shopping Journey" timestamp="2019-01-17T07:43:35" tests="1" failures="1" time="67.957">
+    <testcase name="Shopping Journey Should verify thank you message after purchase" time="67.957" classname="Should verify thank you message after purchase">
+      <failure><![CDATA[CypressError: Timed out retrying: expected 'https://www.t-mobile.cz/kosik?p_auth=duc5o3TA&p_p_id=lweshoppingcart_WAR_lweeshopportlet&p_p_lifecycle=1&p_p_state=exclusive&p_p_mode=view&p_p_col_id=column-1&p_p_col_pos=1&p_p_col_count=3&_lweshoppingcart_WAR_lweeshopportlet_javax.portlet.action=submit_cart' to include '/kosik/checkout'
+    at Object.cypressErr (https://www.t-mobile.cz/__cypress/runner/cypress_runner.js:67227:11)
+    at Object.throwErr (https://www.t-mobile.cz/__cypress/runner/cypress_runner.js:67192:18)
+    at Object.throwErrByPath (https://www.t-mobile.cz/__cypress/runner/cypress_runner.js:67219:17)
+    at retry (https://www.t-mobile.cz/__cypress/runner/cypress_runner.js:61228:16)
+    at https://www.t-mobile.cz/__cypress/runner/cypress_runner.js:53731:18
+    at tryCatcher (https://www.t-mobile.cz/__cypress/runner/cypress_runner.js:7091:23)
+    at Promise._settlePromiseFromHandler (https://www.t-mobile.cz/__cypress/runner/cypress_runner.js:5113:31)
+    at Promise._settlePromise (https://www.t-mobile.cz/__cypress/runner/cypress_runner.js:5170:18)
+    at Promise._settlePromise0 (https://www.t-mobile.cz/__cypress/runner/cypress_runner.js:5215:10)
+    at Promise._settlePromises (https://www.t-mobile.cz/__cypress/runner/cypress_runner.js:5290:18)
+    at Async._drainQueue (https://www.t-mobile.cz/__cypress/runner/cypress_runner.js:2023:16)
+    at Async._drainQueues (https://www.t-mobile.cz/__cypress/runner/cypress_runner.js:2033:10)
+    at Async.drainQueues (https://www.t-mobile.cz/__cypress/runner/cypress_runner.js:1907:14)
+    at <anonymous>]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
